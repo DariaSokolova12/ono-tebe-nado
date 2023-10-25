@@ -5,10 +5,11 @@
 }
 
 body {
-  width: 1440px;
+  min-width: 1440px;
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
+
 address {
   font-style: normal;
 }
@@ -34,6 +35,13 @@ a {
 
 img {
   width: 100%;
+}
+
+button {
+  background-color: transparent;
+  padding: 12px 32px;
+  border: 1px white solid;
+  z-index: 2;
 }
 
 
