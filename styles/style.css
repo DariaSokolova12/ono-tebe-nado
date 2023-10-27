@@ -198,7 +198,6 @@
 
 .lots {
   margin: 180px 50px 181px 50px;
-  width: 1340px;
 }
 
 
@@ -217,7 +216,7 @@
 .lots__card-list  {
   display: grid;
   grid-template-columns:repeat(3, 1fr);
-  column-gap: 25px;
+  gap: 25px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
